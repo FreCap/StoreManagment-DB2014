@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ProgettoDB15" Class="LinqToSQLClassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=PORTATILE-HP\SQLEXPRESS;Initial Catalog=ProgettoDB15;Integrated Security=True" SettingsObjectName="ProgettoDB15_Bellini_Capponi.Properties.Settings" SettingsPropertyName="PorgettoDB15ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CASAPRODUTTRICE" Member="CASAPRODUTTRICE">
+    <Type Name="CASAPRODUTTRICE">
+      <Column Name="marchio" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="descrizione" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="CASAPRODUTTRICE_PRODOTTO" Member="PRODOTTO" ThisKey="marchio" OtherKey="marchio" Type="PRODOTTO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TUBO" Member="TUBO">
+    <Type Name="TUBO">
+      <Column Name="IDprodotto" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="diametro" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="lunghezza" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="PRODOTTO_TUBO" Member="PRODOTTO" ThisKey="IDprodotto" OtherKey="IDprodotto" Type="PRODOTTO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CLIENTE" Member="CLIENTE">
+    <Type Name="CLIENTE">
+      <Column Name="IDcliente" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tipo" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="descrizione" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="denominazionesociale" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="nome" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cognome" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="CLIENTE_ORDINE" Member="ORDINE" ThisKey="IDcliente" OtherKey="IDcliente" Type="ORDINE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DETTAGLIODORDINE" Member="DETTAGLIODORDINE">
+    <Type Name="DETTAGLIODORDINE">
+      <Column Name="IDordine" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IDprodotto" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="quantità" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ORDINE_DETTAGLIODORDINE" Member="ORDINE" ThisKey="IDordine" OtherKey="IDordine" Type="ORDINE" IsForeignKey="true" />
+      <Association Name="PRODOTTO_DETTAGLIODORDINE" Member="PRODOTTO" ThisKey="IDprodotto" OtherKey="IDprodotto" Type="PRODOTTO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DETTAGLIOGIACENZA" Member="DETTAGLIOGIACENZA">
+    <Type Name="DETTAGLIOGIACENZA">
+      <Column Name="IDinventario" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IDprodotto" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="quantità" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="INVENTARIO_DETTAGLIOGIACENZA" Member="INVENTARIO" ThisKey="IDinventario" OtherKey="IDinventario" Type="INVENTARIO" IsForeignKey="true" />
+      <Association Name="PRODOTTO_DETTAGLIOGIACENZA" Member="PRODOTTO" ThisKey="IDprodotto" OtherKey="IDprodotto" Type="PRODOTTO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DIPENDENTE" Member="DIPENDENTE">
+    <Type Name="DIPENDENTE">
+      <Column Name="CODfiscale" Type="System.String" DbType="NChar(16) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nome" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="cognome" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="tipo" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="numeroordinivendita" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="numeroclienti" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="commissione" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="orelavorate" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pagaoraria" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="datainizio" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="datafine" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="IDmagazzino" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="DIPENDENTE_ORDINE" Member="ORDINE" ThisKey="CODfiscale" OtherKey="CODfiscale" Type="ORDINE" />
+      <Association Name="DIPENDENTE_SUGGERIMENTO" Member="SUGGERIMENTO" ThisKey="CODfiscale" OtherKey="CODfiscale" Type="SUGGERIMENTO" />
+      <Association Name="MAGAZZINO_DIPENDENTE" Member="MAGAZZINO" ThisKey="IDmagazzino" OtherKey="IDmagazzino" Type="MAGAZZINO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FORNITORE" Member="FORNITORE">
+    <Type Name="FORNITORE">
+      <Column Name="IDfornitore" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nome" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="cognome" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="descrizione" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="FORNITORE_ORDINE" Member="ORDINE" ThisKey="IDfornitore" OtherKey="IDfornitore" Type="ORDINE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.INVENTARIO" Member="INVENTARIO">
+    <Type Name="INVENTARIO">
+      <Column Name="IDinventario" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IDmagazzino" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="anno" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="INVENTARIO_DETTAGLIOGIACENZA" Member="DETTAGLIOGIACENZA" ThisKey="IDinventario" OtherKey="IDinventario" Type="DETTAGLIOGIACENZA" />
+      <Association Name="MAGAZZINO_INVENTARIO" Member="MAGAZZINO" ThisKey="IDmagazzino" OtherKey="IDmagazzino" Type="MAGAZZINO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MAGAZZINO" Member="MAGAZZINO">
+    <Type Name="MAGAZZINO">
+      <Column Name="IDmagazzino" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nome" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="indirizzo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="MAGAZZINO_DIPENDENTE" Member="DIPENDENTE" ThisKey="IDmagazzino" OtherKey="IDmagazzino" Type="DIPENDENTE" />
+      <Association Name="MAGAZZINO_INVENTARIO" Member="INVENTARIO" ThisKey="IDmagazzino" OtherKey="IDmagazzino" Type="INVENTARIO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ORDINE" Member="ORDINE">
+    <Type Name="ORDINE">
+      <Column Name="IDordine" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="data" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="CODfiscale" Type="System.String" DbType="NChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="tipo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="prezzo" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="IDcliente" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IDfornitore" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ORDINE_DETTAGLIODORDINE" Member="DETTAGLIODORDINE" ThisKey="IDordine" OtherKey="IDordine" Type="DETTAGLIODORDINE" />
+      <Association Name="CLIENTE_ORDINE" Member="CLIENTE" ThisKey="IDcliente" OtherKey="IDcliente" Type="CLIENTE" IsForeignKey="true" />
+      <Association Name="DIPENDENTE_ORDINE" Member="DIPENDENTE" ThisKey="CODfiscale" OtherKey="CODfiscale" Type="DIPENDENTE" IsForeignKey="true" />
+      <Association Name="FORNITORE_ORDINE" Member="FORNITORE" ThisKey="IDfornitore" OtherKey="IDfornitore" Type="FORNITORE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PRODOTTO" Member="PRODOTTO">
+    <Type Name="PRODOTTO">
+      <Column Name="IDprodotto" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nome" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="marchio" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tipoprodotto" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="prezzo" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Association Name="PRODOTTO_TUBO" Member="TUBO" ThisKey="IDprodotto" OtherKey="IDprodotto" Type="TUBO" Cardinality="One" />
+      <Association Name="PRODOTTO_DETTAGLIODORDINE" Member="DETTAGLIODORDINE" ThisKey="IDprodotto" OtherKey="IDprodotto" Type="DETTAGLIODORDINE" />
+      <Association Name="PRODOTTO_DETTAGLIOGIACENZA" Member="DETTAGLIOGIACENZA" ThisKey="IDprodotto" OtherKey="IDprodotto" Type="DETTAGLIOGIACENZA" />
+      <Association Name="PRODOTTO_RACCORDO" Member="RACCORDO" ThisKey="IDprodotto" OtherKey="IDprodotto" Type="RACCORDO" Cardinality="One" />
+      <Association Name="PRODOTTO_RUBINETTO" Member="RUBINETTO" ThisKey="IDprodotto" OtherKey="IDprodotto" Type="RUBINETTO" Cardinality="One" />
+      <Association Name="CASAPRODUTTRICE_PRODOTTO" Member="CASAPRODUTTRICE" ThisKey="marchio" OtherKey="marchio" Type="CASAPRODUTTRICE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RACCORDO" Member="RACCORDO">
+    <Type Name="RACCORDO">
+      <Column Name="IDprodotto" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tipo" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="diametro" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="PRODOTTO_RACCORDO" Member="PRODOTTO" ThisKey="IDprodotto" OtherKey="IDprodotto" Type="PRODOTTO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RUBINETTO" Member="RUBINETTO">
+    <Type Name="RUBINETTO">
+      <Column Name="IDprodotto" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tipo" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="descrizione" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="PRODOTTO_RUBINETTO" Member="PRODOTTO" ThisKey="IDprodotto" OtherKey="IDprodotto" Type="PRODOTTO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SUGGERIMENTO" Member="SUGGERIMENTO">
+    <Type Name="SUGGERIMENTO">
+      <Column Name="IDcliente" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CODfiscale" Type="System.String" DbType="NChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="data" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Association Name="DIPENDENTE_SUGGERIMENTO" Member="DIPENDENTE" ThisKey="CODfiscale" OtherKey="CODfiscale" Type="DIPENDENTE" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

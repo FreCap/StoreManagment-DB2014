@@ -1,0 +1,59 @@
+C:\Users\Federico Bellini\Desktop\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\bin\Debug\ProgettoDB15_Bellini_Capponi.exe
+C:\Users\Federico Bellini\Desktop\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\bin\Debug\ProgettoDB15_Bellini_Capponi.pdb
+C:\Users\Federico Bellini\Desktop\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.MainForm.resources
+C:\Users\Federico Bellini\Desktop\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.Properties.Resources.resources
+C:\Users\Federico Bellini\Desktop\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.csproj.GenerateResource.Cache
+C:\Users\Federico Bellini\Desktop\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.exe
+C:\Users\Federico Bellini\Desktop\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.pdb
+C:\Users\Federico Bellini\Desktop\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormVenditori.resources
+C:\Users\Federico Bellini\Desktop\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormRappresentanti.resources
+C:\Users\Federico Bellini\Desktop\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormMagazzinieri.resources
+C:\Users\Federico Bellini\Desktop\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormDirigente.resources
+C:\Users\Federico Bellini\Desktop\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\bin\Debug\ProgettoDB15_Bellini_Capponi.exe.config
+C:\Users\Federico Bellini\Desktop\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.csprojResolveAssemblyReference.cache
+C:\Users\Federico Bellini\Desktop\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.DettaglioOrdine.resources
+C:\Users\fre\Downloads\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\bin\Debug\ProgettoDB15_Bellini_Capponi.exe.config
+C:\Users\fre\Downloads\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.exe
+C:\Users\fre\Downloads\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.pdb
+C:\Users\fre\Downloads\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\bin\Debug\ProgettoDB15_Bellini_Capponi.exe
+C:\Users\fre\Downloads\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\bin\Debug\ProgettoDB15_Bellini_Capponi.pdb
+C:\Users\fre\Downloads\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.csprojResolveAssemblyReference.cache
+C:\Users\fre\Downloads\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.DettaglioOrdine.resources
+C:\Users\fre\Downloads\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormDirigente.resources
+C:\Users\fre\Downloads\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormMagazzinieri.resources
+C:\Users\fre\Downloads\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormRappresentanti.resources
+C:\Users\fre\Downloads\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormVenditori.resources
+C:\Users\fre\Downloads\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.MainForm.resources
+C:\Users\fre\Downloads\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.Properties.Resources.resources
+C:\Users\fre\Downloads\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.csproj.GenerateResource.Cache
+C:\Users\fre\Downloads\Progetto\Progetto\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\bin\Debug\ProgettoDB15_Bellini_Capponi.exe.config
+C:\Users\fre\Downloads\Progetto\Progetto\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.exe
+C:\Users\fre\Downloads\Progetto\Progetto\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.pdb
+C:\Users\fre\Downloads\Progetto\Progetto\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.csprojResolveAssemblyReference.cache
+C:\Users\fre\Downloads\Progetto\Progetto\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.DettaglioOrdine.resources
+C:\Users\fre\Downloads\Progetto\Progetto\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormDirigente.resources
+C:\Users\fre\Downloads\Progetto\Progetto\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormMagazzinieri.resources
+C:\Users\fre\Downloads\Progetto\Progetto\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormRappresentanti.resources
+C:\Users\fre\Downloads\Progetto\Progetto\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormVenditori.resources
+C:\Users\fre\Downloads\Progetto\Progetto\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.MainForm.resources
+C:\Users\fre\Downloads\Progetto\Progetto\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.Properties.Resources.resources
+C:\Users\fre\Downloads\Progetto\Progetto\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.csproj.GenerateResource.Cache
+C:\Users\fre\Downloads\Progetto\Progetto\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\bin\Debug\ProgettoDB15_Bellini_Capponi.exe
+C:\Users\fre\Downloads\Progetto\Progetto\ProgettoDB15_Bellini_Capponi\ProgettoDB15_Bellini_Capponi\bin\Debug\ProgettoDB15_Bellini_Capponi.pdb
+C:\Users\Federico Bellini\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\bin\Debug\ProgettoDB15_Bellini_Capponi.exe.config
+C:\Users\Federico Bellini\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.exe
+C:\Users\Federico Bellini\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.pdb
+C:\Users\fre\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\bin\Debug\ProgettoDB15_Bellini_Capponi.exe.config
+C:\Users\fre\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.exe
+C:\Users\fre\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.pdb
+C:\Users\fre\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\bin\Debug\ProgettoDB15_Bellini_Capponi.exe
+C:\Users\fre\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\bin\Debug\ProgettoDB15_Bellini_Capponi.pdb
+C:\Users\fre\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.csprojResolveAssemblyReference.cache
+C:\Users\fre\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.DettaglioOrdine.resources
+C:\Users\fre\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormDirigente.resources
+C:\Users\fre\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormMagazzinieri.resources
+C:\Users\fre\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormRappresentanti.resources
+C:\Users\fre\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.FormVenditori.resources
+C:\Users\fre\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.MainForm.resources
+C:\Users\fre\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.Properties.Resources.resources
+C:\Users\fre\Desktop\Gruppo1193\source\ProgettoDB15_Bellini_Capponi\obj\x86\Debug\ProgettoDB15_Bellini_Capponi.csproj.GenerateResource.Cache
